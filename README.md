@@ -94,14 +94,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars1.githubusercontent.com/u/16886379?s=400&v=4" width="100px;"/><br /><sub><b>Brandux Juárez</b></sub>](https://github.com/Brandux)<br />[💻](https://github.com/Brandux?tab=repositories "Code") | [<img src="https://avatars2.githubusercontent.com/u/18518200?s=400&v=4" width="100px;"/><br /><sub><b>Nick Mostacero</b></sub>](https://github.com/NickMostacero)<br />[💻](https://github.com/NickMostacero?tab=repositories "Code")| [<img src="https://avatars3.githubusercontent.com/u/50417495?s=400&v=4" width="100px;"/><br /><sub><b>Rosario Lopez</b></sub>](https://github.com/sarilopez)<br />[💻](https://github.com/sarilopez?tab=repositories "Code")|
-| :---: | :---: | :---: |
-
-<!-- [<img src="https://avatars2.githubusercontent.com/u/18518200?s=400&v=4" width="100px;"/><br /><sub><b>Nick Mostacero</b></sub>](https://github.com/Brandux)<br /> | [💻](https://github.com/Brandux?tab=repositories "Code")| -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+| [<img src="https://avatars1.githubusercontent.com/u/16886379?s=400&v=4" width="100px;"/><br /><sub><b>Brandux Juárez</b></sub>](https://github.com/Brandux)<br />[💻](https://github.com/Brandux?tab=repositories "Code") | [<img src="https://avatars2.githubusercontent.com/u/18518200?s=400&v=4" width="100px;"/><br /><sub><b>Nick Mostacero</b></sub>](https://github.com/NickMostacero)<br />[💻](https://github.com/NickMostacero?tab=repositories "Code")| [<img src="https://avatars3.githubusercontent.com/u/50417495?s=400&v=4" width="100px;"/><br /><sub><b>Rosario Lopez</b></sub>](https://github.com/sarilopez)<br />[💻](https://github.com/sarilopez?tab=repositories "Code") | [<img src="https://avatars3.githubusercontent.com/u/16886427?s=400&v=4" width="100px;"/><br /><sub><b>Leidy Flores</b></sub>](https://github.com/Leflomy)<br />[💻](https://github.com/Leflomy?tab=repositories "Code") | [<img src="https://avatars1.githubusercontent.com/u/16886397?s=400&v=4" width="100px;"/><br /><sub><b>Sindy Epiquien</b></sub>](https://github.com/SindyEpiquien)<br />[💻](https://github.com/SindyEpiquien?tab=repositories "Code") | [<img src="https://avatars0.githubusercontent.com/u/16886651?s=400&v=4" width="100px;"/><br /><sub><b>Roling Esponoza</b></sub>](https://github.com/Rolinespinoza)<br />[💻](https://github.com/Rolinespinoza?tab=repositories "Code")
+| :---: | :---: | :---: | :---: | :---: | :---: |
 
 
-<!-- https://avatars2.githubusercontent.com/u/18518200?s=400&v=4 -->
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
