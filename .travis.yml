@@ -22,7 +22,3 @@ before_script:
 install:
   - npm install eval
   - npm install
-  
-
-script:
-  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
