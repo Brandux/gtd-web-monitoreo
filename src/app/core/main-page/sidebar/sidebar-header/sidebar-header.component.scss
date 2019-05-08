@@ -1,22 +1,26 @@
-// @import 'themes';
-// @import '~bootstrap/scss/mixins/breakpoints';
+@import 'themes';
+@import '~bootstrap/scss/mixins/breakpoints';
 @import '~@nebular/theme/styles/global/breakpoints';
 
+@include nb-install-component() {
   .main-btn {
     width: 12rem;
     height: 5rem;
     // width: 9rem;
-    // margin-top: calc(-0.6rem - #{nb-theme(sidebar-header-gap)}); // falta el rem a 0.
-    // margin-top: calc(-0.5rem - #{nb-theme(sidebar-header-gap)}); // falta el rem a 0.
-    margin-top: calc(-0.1rem - #{nb-theme(sidebar-header-gap)}); // falta el rem a 0.
-
-    color: nb-theme(color-bg);
+    margin-top: calc(0rem - #{nb-theme(sidebar-header-gap)}); // falta el rem a 0.
+    // color: nb-theme(color-bg);
     transition: padding 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.48);
-    // box-shadow: none; /** Reemplaza al original */
+    box-shadow: none; /** Reemplaza al original */
     background-image: linear-gradient(to right, nb-theme(header-bg), nb-theme(header-bg));
-   
+    @include nb-for-theme(lamb-default) {
+      background-image: linear-gradient(to right, nb-theme(color-primary), nb-theme(color-primary));
+    }
     i {
       font-size: 2rem;
+    }
+
+    img {
+      max-height: 4rem;
     }
 
     span {
@@ -29,70 +33,36 @@
     }
   }
 
-  
-  @import 'themes';
-  @import '~bootstrap/scss/mixins/breakpoints';
-  @import '~@nebular/theme/styles/global/breakpoints';
-  // @import '~@nebular/theme/styles/global/breakpoints';
-  
-  @include nb-install-component() {
-    .main-btn {
-      width: 12rem;
-      height: 5rem;
-      // width: 9rem;
-      margin-top: calc(0rem - #2b96ac); // falta el rem a 0.
-      color: #2b96ac;
-      transition: padding 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.48);
-      box-shadow: none; /** Reemplaza al original */
-      background-image: linear-gradient(-180deg,#2b96ac,#16525e) ;
-      @include nb-for-theme(lamb-default) {
-        background-image: linear-gradient(-180deg,#2b96ac,#16525e) ;
-      }
-      i {
-        font-size: 2rem;
-      }
-  
-      span {
-        padding-left: 0.25rem;
-      }
-  
-      i,
-      span {
-        vertical-align: middle;
-      }
+  @include media-breakpoint-down(xs) {
+    .main-content {
+      padding: 0.75rem !important;
     }
-  
-    @include media-breakpoint-down(xs) {
-      .main-content {
-        padding: 0.75rem !important;
-      }
-  
-      .router-content {
-        position: relative;
-      }
-  
-      .router-content > * {
-        display: block;
-      }
+
+    .router-content {
+      position: relative;
     }
-  
-    @include media-breakpoint-down(sm) {
-      .menu-sidebar {
-        margin-top: 0;
-  
-        /deep/ .main-container {
-          height: calc(#2b96ac -#2b96ac) !important;
-          border-top-right-radius: 0;
-  
-          .scrollable {
-            padding-top: 0;
-          }
-        }
-      }
-  
-      .main-btn {
-        display: none;
-      }
+
+    .router-content > * {
+      display: block;
     }
   }
-  
+
+  @include media-breakpoint-down(sm) {
+    .menu-sidebar {
+      margin-top: 0;
+
+      /deep/ .main-container {
+        height: calc(#{nb-theme(sidebar-height)} - #{nb-theme(header-height)}) !important;
+        border-top-right-radius: 0;
+
+        .scrollable {
+          padding-top: 0;
+        }
+      }
+    }
+
+    .main-btn {
+      display: none;
+    }
+  }
+}

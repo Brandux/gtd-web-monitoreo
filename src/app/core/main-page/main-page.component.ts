@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { StateService } from '../shared/state.service';
 
 @Component({
   selector: 'gtd-main-page',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent implements OnInit {
 
-  constructor() { }
+
+  constructor(
+  ) {
+   }
 
   ngOnInit() {
   }
+
 
 }
