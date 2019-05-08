@@ -1,5 +1,9 @@
 <p align="center">
-  <h2 align="center">Gestion de Tamite Documentario - Web</h2>
+  <h2 align="center">Gestion de Tamite Documentario - Módulo Monitoreo</h2>
+  <span>
+    Sistema web de tramite documentario para Secretaria General, el presente repositorio
+    representa el modulo de monitoreo.
+  </span>
   <p align="center">El frontend esta generado con <a href="https://github.com/angular/angular-cli">Angular CLI</a>. y con <a href="https://www.typescriptlang.org">TypeScript</a>.</p>
   <p align="center">
     <a href="https://travis-ci.org/Brandux/gtd-web-monitoreo">
@@ -90,8 +94,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 [<img src="https://avatars1.githubusercontent.com/u/16886379?s=400&v=4" width="100px;"/><br /><sub><b>Brandux Juárez</b></sub>](https://github.com/Brandux)<br /> | [💻](https://github.com/Brandux?tab=repositories "Code")|
+[<img src="https://avatars2.githubusercontent.com/u/18518200?s=400&v=4" width="100px;"/><br /><sub><b>Nick Mostacero</b></sub>](https://github.com/Brandux)<br /> | [💻](https://github.com/Brandux?tab=repositories "Code")|
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+
+<!-- https://avatars2.githubusercontent.com/u/18518200?s=400&v=4 -->
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

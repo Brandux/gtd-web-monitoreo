@@ -1,1 +1,11 @@
+dist: trusty
+sudo: false
+
+cache:
+  directories:
+    - ./node_modules
+
 language: node_js
+
+install:
+  - npm install
