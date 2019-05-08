@@ -95,7 +95,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 | [<img src="https://avatars1.githubusercontent.com/u/16886379?s=400&v=4" width="100px;"/><br /><sub><b>Brandux Juárez</b></sub>](https://github.com/Brandux)<br />[💻](https://github.com/Brandux?tab=repositories "Code") | [<img src="https://avatars2.githubusercontent.com/u/18518200?s=400&v=4" width="100px;"/><br /><sub><b>Nick Mostacero</b></sub>](https://github.com/NickMostacero)<br />[💻](https://github.com/NickMostacero?tab=repositories "Code")| [<img src="https://avatars3.githubusercontent.com/u/50417495?s=400&v=4" width="100px;"/><br /><sub><b>Rosario Lopez</b></sub>](https://github.com/sarilopez)<br />[💻](https://github.com/sarilopez?tab=repositories "Code")|
-| :---: | :---: |
+| :---: | :---: | :---: |
 
 <!-- [<img src="https://avatars2.githubusercontent.com/u/18518200?s=400&v=4" width="100px;"/><br /><sub><b>Nick Mostacero</b></sub>](https://github.com/Brandux)<br /> | [💻](https://github.com/Brandux?tab=repositories "Code")| -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
