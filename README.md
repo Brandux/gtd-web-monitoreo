@@ -76,7 +76,7 @@ ng serve
 To run the project with a production bundle and AOT compilation listening at [localhost:3000](http://localhost:3000) run the following command:
 
 ```bash
-ng prod --build
+ng build --prod
 ```
 
 
