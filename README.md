@@ -91,8 +91,7 @@ Agradecemos a :
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars1.githubusercontent.com/u/16886379?s=400&v=4" width="100px;"/><br /><sub><b>Brandux Juárez</b></sub>](https://github.com/Brandux)<br />[??](https://github.com/Brandux?tab=repositories "Code") [??](#talk-Meabed "Talks") |
-| :---: | :---: |
+| [<img src="https://avatars1.githubusercontent.com/u/16886379?s=400&v=4" width="100px;"/><br /><sub><b>Brandux Juárez</b></sub>](https://github.com/Brandux)<br />[💻](https://github.com/Brandux?tab=repositories "Code") |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Further help
