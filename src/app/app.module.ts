@@ -7,6 +7,8 @@ import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
 import { LambWebLibModule } from 'lamb-web-lib';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,7 @@ import { LambWebLibModule } from 'lamb-web-lib';
     AppRoutingModule,
     LambWebLibModule,
     CoreModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [],
   bootstrap: [AppComponent]
