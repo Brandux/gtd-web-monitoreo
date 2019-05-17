@@ -7,7 +7,7 @@ import { IdentityIasdLogoComponent } from './main-page/identity-iasd-logo/identi
 import { SidebarContentComponent } from './main-page/sidebar/sidebar-content/sidebar-content.component';
 import { SidebarFooterComponent } from './main-page/sidebar/sidebar-footer/sidebar-footer.component';
 import { SidebarHeaderComponent } from './main-page/sidebar/sidebar-header/sidebar-header.component';
-import { TOASTR_CONFIG } from 'environments/generals';
+import { TOASTR_CONFIG } from 'src/environments/generals';
 import { ToastrModule } from 'ngx-toastr';
 import {
   NbCardModule, NbSidebarModule, NbMenuModule, NbUserModule,

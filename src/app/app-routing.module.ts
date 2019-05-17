@@ -7,7 +7,7 @@ const routes: Routes = [
   {
     path: '',
     component: MainPageComponent,
-    loadChildren: 'app/modules/modules.module#ModulesModule',
+    loadChildren: 'src/app/modules/modules.module#ModulesModule',
 
   },
 ];
