@@ -19,8 +19,3 @@ cache:
 install:
   - npm install
   - npm install -g @angular/cli
-
-script:
-  - export CHROME_BIN=chromium-browser
-  - xvfb-run -a npm run test -- --browsers=ChromeNoSandbox --code-coverage --watch=false
-  - xvfb-run -a npm run e2e -- 

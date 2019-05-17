@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ModulesComponent } from './modules.component';
 
+<<<<<<< HEAD
 // const titles = require('./modules-titles.json');
 
 const routes: Routes = [
@@ -21,6 +21,9 @@ const routes: Routes = [
     ],
   },
 ];
+=======
+const routes: Routes = [];
+>>>>>>> parent of b316a50... finiche
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
