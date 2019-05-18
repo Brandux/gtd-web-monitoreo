@@ -2,8 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ModulesComponent } from './modules.component';
 
-const titles = require('./modules-titles.json');
-
 const routes: Routes = [
   {
     path: '',
@@ -11,7 +9,7 @@ const routes: Routes = [
     children: [
       {
         path: 'dashboard',
-        loadChildren: 'src/app/modules/dashboard/dashboard.module#DashboardModule',
+        loadChildren: 'app/modules/dashboard/dashboard.module#DashboardModule',
       },
       {
         path: '',
