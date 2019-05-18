@@ -20,7 +20,7 @@
             "outputPath": "dist/gtd-web-monitoreo",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "baseHref": "/monitoring/",
+            "baseHref": "/gtd-web-monitoreo/",
             "polyfills": "src/polyfills.ts",
             "stylePreprocessorOptions": {
               "includePaths": [
