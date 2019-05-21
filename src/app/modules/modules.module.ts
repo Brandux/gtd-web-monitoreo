@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 
 import { ModulesRoutingModule } from './modules-routing.module';
 import { ModulesComponent } from './modules.component';
+import { ReportComponent } from './report/report.component';
 
 @NgModule({
-  declarations: [ModulesComponent],
+  declarations: [ModulesComponent, ReportComponent],
   imports: [
     CommonModule,
     ModulesRoutingModule
