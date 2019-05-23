@@ -6,6 +6,15 @@ const routes: Routes = [
   {
     path: '',
     component: MonitoringComponent,
+    children: [
+      {
+        path: 'pending-request',
+        loadChildren: 'app/modules/monitoring/pending-request/pending-request.module#PendingRequestModule',
+        data:{
+          title: 'Solicitudes pendientes',
+        },
+      },
+    ],
   },
 ];
 

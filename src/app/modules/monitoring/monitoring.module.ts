@@ -5,6 +5,7 @@ import { MonitoringRoutingModule } from './monitoring-routing.module';
 import { LambModalModule, LambInputIconModule, LambShowErrorModule } from 'lamb-web-lib';
 import { NbButtonModule, NbProgressBarModule, NbRadioModule, NbCardModule } from '@nebular/theme';
 import { MonitoringComponent } from './monitoring.component';
+import { PendingRequestComponent } from './pending-request/pending-request.component';
 
 
 const COMPONENTS: any[] = [];
@@ -30,6 +31,7 @@ const NB_MODULES: any[] = [
   declarations: [
     MonitoringComponent,
     ...COMPONENTS,
+    PendingRequestComponent,
   ],
   imports: [
     CommonModule,
