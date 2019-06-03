@@ -5,7 +5,9 @@
     "ng": "ng",
     "start": "ng serve --port 4300",
     "build": "ng build",
+    "build:ci": "ng build -c=$BUILD_CONFIG --baseHref=/gtd-web-monitoreo/",
     "test": "ng test",
+    "test:ci": "ng test --no-watch --code-coverage --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
