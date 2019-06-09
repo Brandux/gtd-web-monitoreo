@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'gtd-monitoring',
   templateUrl: './monitoring.component.html',
-  styleUrls: ['./monitoring.component.scss']
+  styles: [''],
 })
 export class MonitoringComponent implements OnInit {
 
