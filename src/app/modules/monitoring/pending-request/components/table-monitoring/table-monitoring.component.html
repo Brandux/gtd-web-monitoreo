@@ -1,0 +1,52 @@
+<nb-card>
+  <nb-card-header>
+    <span class="lamb-card-header">
+      <i class="fa fa-shopping-cart lamb-icon-table"></i>
+      Realizar una Operación
+    </span>
+    <div>
+      <!-- <i class="fa fa-plus-circle lamb-icon-table" (click)="onCreate()"></i>
+      <i class="fa fa-list-ul lamb-icon-table lamb-list"></i> -->
+      <!-- <button nbButton size="xsmall" (click)="onCreate()">
+        <i class="fa fa-plus-circle"></i>
+        Nuevo</button> -->
+    </div>
+  </nb-card-header>
+  <nb-card-body>
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th class="text-center">N</th>
+          <th class="text-center">Número de Documento</th>
+          <th>Tipo de solicitud</th>
+          <th class="text-center">Remitente</th>
+          <th class="text-center">Asunto</th>
+          <th class="text-center">Fecha</th>
+          <th class="text-center">Área destino</th>
+          <th class="text-center">Estado</th>
+          <th class="text-center">Acciones</th>
+          <th class="text-center"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr >
+          <td class="text-center"> (i+1) </td>
+          <!-- <td>{{ myOperation. }}</td> -->
+          <td class="text-center"> operation.id_pedido </td>
+          <td> operation.motivo </td>
+          <td class="text-center"> operation.tipo_nombre </td>
+          <td class="text-center  mr-2">
+            <nb-progress-bar status="primary" placement="top" ngbTooltip=" operation.estado_nombre " [value]="80"
+              size="xs"></nb-progress-bar>
+          </td>
+
+          <td class="lamb-acctions text-center" (click)="onEdit(operation)">
+            <i class="fa fa-forward"></i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </nb-card-body>
+</nb-card>

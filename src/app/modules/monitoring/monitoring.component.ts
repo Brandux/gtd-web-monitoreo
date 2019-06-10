@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styles: [''],
 })
 export class MonitoringComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit() {
+   
   }
 
 }

@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styles: [''],
 })
 export class PendingRequestComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {

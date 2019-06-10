@@ -3,9 +3,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'gtd-pending-request-home',
   template: `
-    <p>
-      pending-request-home works!
-    </p>
+    <div class="col-md-12 ">
+      <gtd-filter-monitoring></gtd-filter-monitoring>
+    </div>
+    <div class="col-md-12">
+      <gtd-table-monitoring></gtd-table-monitoring>
+    </div>
   `,
   styles: []
 })

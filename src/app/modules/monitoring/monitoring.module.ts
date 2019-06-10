@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { MonitoringRoutingModule } from './monitoring-routing.module';
-import { LambModalModule, LambInputIconModule, LambShowErrorModule } from 'lamb-web-lib';
+import { LambModalModule, LambInputIconModule, LambShowErrorModule, LambButtonBackModule, LambButtonIconModule, LambConfirmDialogModule, LambFieldsetModule, LambTabsModule } from 'lamb-web-lib';
 import { NbButtonModule, NbProgressBarModule, NbRadioModule, NbCardModule } from '@nebular/theme';
 import { MonitoringComponent } from './monitoring.component';
 import { PendingRequestComponent } from './pending-request/pending-request.component';
@@ -13,9 +13,13 @@ const COMPONENTS: any[] = [];
 const SERVICES: any[] = [];
 
 const LAMB_MODULES: any[] = [
-  LambModalModule,
+  LambButtonBackModule,
+  LambButtonIconModule,
   LambInputIconModule,
+  LambConfirmDialogModule,
+  LambFieldsetModule,
   LambShowErrorModule,
+  LambTabsModule,
 ];
 
 const NGB_MODULES: any[] = [];
@@ -31,7 +35,6 @@ const NB_MODULES: any[] = [
   declarations: [
     MonitoringComponent,
     ...COMPONENTS,
-    PendingRequestComponent,
   ],
   imports: [
     CommonModule,

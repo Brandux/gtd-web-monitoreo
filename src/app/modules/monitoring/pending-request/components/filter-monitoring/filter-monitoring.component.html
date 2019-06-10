@@ -1,0 +1,62 @@
+<nb-card>
+  <nb-card-header>
+    <span class="lamb-card-header">
+      <i class="fa fa-shopping-cart lamb-icon-table"></i>
+      Lista de Solicitudes
+    </span>
+    <div>
+      <!-- <i class="fa fa-plus-circle lamb-icon-table" (click)="onCreate()"></i>
+      <i class="fa fa-list-ul lamb-icon-table lamb-list"></i> -->
+      <!-- <button nbButton size="xsmall" (click)="onCreate()">
+        <i class="fa fa-plus-circle"></i>
+        Nuevo</button> -->
+    </div>
+  </nb-card-header>
+  <nb-card-body>
+
+<div class="row">
+  <div class="col-md-12">
+    <fieldset class="lamb-fieldset-border">
+      <legend class="lamb-legend-border"><span class="fa fa-filter lamb-icon"></span> Filtros</legend>
+
+      <div class="col-md-12 ">
+        <form [formGroup]="filtersFormAssistReport" >
+          <div class="row">
+            <div class="col-md">
+              <div class="form-group">
+                <select class="form-control form-control-sm" formControlName="id_depto">
+                  <option disabled value="">Seleccionar area</option>
+                  <option  [value] ="0">Todos los departamentos</option>
+                  <!-- <option *ngFor="let d of area" [value]="d.id_depto">{{d.nombre}}</option> -->
+                </select>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="form-group">
+                <input class="form-control  form-control-sm" format='dd/mm/yyyy' placeholder ="dd/mm/yyyy"
+                formControlName="fecha" ngbDatepicker type="date">
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="form-group">
+                <input class="form-control  form-control-sm" format='dd/mm/yyyy' placeholder ="dd/mm/yyyy"
+                formControlName="fecha" ngbDatepicker type="date">
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="form-group">
+                <button class="btn btn-primary justify-content-center" > <i class="fa fa-home"></i> Visualizar</button>
+                <!-- <lamb-button-icon (click)="onVisualizer()" title="Visualizar" [isDisabled]="validateButtonFilter"
+                label="Visualizar" icon="fa fa-filter"  size="sm" colorClass="btn-primary"></lamb-button-icon> -->
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+  </fieldset>
+  </div>
+</div>
+
+
+</nb-card-body>
+</nb-card>
