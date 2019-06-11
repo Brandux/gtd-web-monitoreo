@@ -10,7 +10,7 @@ import {
   LambTabsModule,
  } from 'lamb-web-lib';
  import { NgbDatepickerModule, NgbTooltipModule, NgbModalModule, NgbTypeaheadModule } from '@ng-bootstrap/ng-bootstrap';
-import { NbCardModule, NbProgressBarModule, NbTooltipModule } from '@nebular/theme';
+import { NbCardModule, NbProgressBarModule, NbTooltipModule, NbRadioModule } from '@nebular/theme';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TableMonitoringComponent } from './components/table-monitoring/table-monitoring.component';
 
@@ -40,6 +40,7 @@ const NG_MODULES: any = [
   NbCardModule,
   NbTooltipModule,
   NbProgressBarModule,
+  NbRadioModule,
   // NbRadioModule,
 ];
 
