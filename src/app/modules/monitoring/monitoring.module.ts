@@ -6,6 +6,7 @@ import { LambModalModule, LambInputIconModule, LambShowErrorModule, LambButtonBa
 import { NbButtonModule, NbProgressBarModule, NbRadioModule, NbCardModule } from '@nebular/theme';
 import { MonitoringComponent } from './monitoring.component';
 import { PendingRequestComponent } from './pending-request/pending-request.component';
+import { DetailsPendingRequestComponent } from './details-pending-request/details-pending-request.component';
 
 
 const COMPONENTS: any[] = [];

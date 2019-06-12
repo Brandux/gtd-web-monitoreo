@@ -14,6 +14,13 @@ const routes: Routes = [
           title: 'Solicitudes pendientes',
         },
       },
+      {
+        path: 'details-pending-request/:id',
+        loadChildren: 'app/modules/monitoring/details-pending-request/details-pending-request.module#DetailsPendingRequestModule',
+        data:{
+          title: 'Detalle de las solicitudes pendientes',
+        },
+      },
     ],
   },
 ];
