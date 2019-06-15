@@ -5,11 +5,6 @@
       Lista de Solicitudes
     </span>
     <div>
-      <!-- <i class="fa fa-plus-circle lamb-icon-table" (click)="onCreate()"></i>
-      <i class="fa fa-list-ul lamb-icon-table lamb-list"></i> -->
-      <!-- <button nbButton size="xsmall" (click)="onCreate()">
-        <i class="fa fa-plus-circle"></i>
-        Nuevo</button> -->
     </div>
   </nb-card-header>
   <nb-card-body>
@@ -26,7 +21,7 @@
               <div class="form-group">
                 <select class="form-control form-control-sm" formControlName="id_depto">
                   <option disabled value="">Seleccionar area</option>
-                  <option  [value] ="0">Todos los departamentos</option>
+                  <option  value ="0">Todos los departamentos</option>
                   <!-- <option *ngFor="let d of area" [value]="d.id_depto">{{d.nombre}}</option> -->
                 </select>
               </div>
@@ -34,20 +29,26 @@
             <div class="col-md">
               <div class="form-group">
                 <input class="form-control  form-control-sm" format='dd/mm/yyyy' placeholder ="dd/mm/yyyy"
-                formControlName="fecha" ngbDatepicker type="date">
+                formControlName="fecha_init" ngbDatepicker type="date">
               </div>
             </div>
             <div class="col-md">
               <div class="form-group">
                 <input class="form-control  form-control-sm" format='dd/mm/yyyy' placeholder ="dd/mm/yyyy"
-                formControlName="fecha" ngbDatepicker type="date">
+                formControlName="fecha_fin" ngbDatepicker type="date">
               </div>
             </div>
             <div class="col-md">
               <div class="form-group">
-                <button class="btn btn-primary justify-content-center" > <i class="fa fa-home"></i> Visualizar</button>
-                <!-- <lamb-button-icon (click)="onVisualizer()" title="Visualizar" [isDisabled]="validateButtonFilter"
-                label="Visualizar" icon="fa fa-filter"  size="sm" colorClass="btn-primary"></lamb-button-icon> -->
+                  <button nbButton shape="round" 
+                      (click)="onGetData()"
+                      [disabled]="!this.filtersFormAssistReport.valid" 
+                      size="small" status="primary" 
+                      style="cursor: pointer">
+                    <i class="fa fa-filter"></i>                    
+                    Filtrar
+                  </button>
+
               </div>
             </div>
           </div>

@@ -29,7 +29,7 @@ const LAMB_MODULES: any[] = [
 ];
 
 const COMPONENTS: any[] = [
-  FilterMonitoringComponent,
+  // FilterMonitoringComponent,
 ];
 
 const SERVICES: any[] = [

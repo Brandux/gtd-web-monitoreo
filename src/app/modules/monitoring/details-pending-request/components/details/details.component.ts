@@ -11,7 +11,6 @@ export class DetailsComponent implements OnInit {
 
   constructor(
     private modalService: NgbModal,
-    
   ) { }
 
   ngOnInit() {
@@ -30,8 +29,4 @@ export class DetailsComponent implements OnInit {
         // this.toFilters.emit(this.pram);
       });
     }
-
-
-    
-  
 }

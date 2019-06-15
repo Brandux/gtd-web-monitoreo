@@ -14,9 +14,17 @@ export class FilterMonitoringComponent implements OnInit {
 
   ngOnInit() {
     this.filtersFormAssistReport = this.formBuilder.group({
-      id_depto: ['0', [Validators.required]],
-      fecha: [ new Date(), [Validators.required]],
+      id_depto: ['', [Validators.required]],
+      fecha_init: [ '', [Validators.required]],
+      fecha_fin :  ['', Validators.required],
     });
   }
 
+  onGetData () {
+    const valid = this.filtersFormAssistReport.valid;
+    if (valid) {
+      const value = this.filtersFormAssistReport.value;
+      console.log(value);
+    }
+  }
 }
